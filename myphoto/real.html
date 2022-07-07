@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="realStyles.css">
+    <link rel="script" href="javaScript">
+    <title>real html
+
+</html>
+</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="main-head">
+                <img class="logo" src="sefae.jpg" alt="Italian Trulli">
+                <nav class="nav">
+                    <ul>
+                        <li class="links"><a href="#home">Home</a></li>
+                        <li class="links"><a href="#about">About</a></li>
+                        <li class="links"><a href="./languagewantoadd.html">Languages and Skills</a></li>
+
+                        <li class="links"><a href="./hobbies.html">Hobbies</a></li>
+                        <li class="links"><a href="#project">Project</a></li>
+                        <li class="links"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+
+        <div class="sign">
+            <span class="fast-flicker">S</span>EFAE<span class="flicker">A</span>LI
+            <!-- <div class="social-links">
+              
+
+            </div> -->
+        </div>
+
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a> -->
+    </section>
+    <section id="about">
+        <div class="content">
+            <img class="myphoto" src="myphotor.jpg">
+            <div class="text">
+                <div class="aboutde">
+                    <h2>ABOUT</h2>
+                    <h2>ABOUT</h2>
+                </div>
+                <p>
+
+                    My name is Sefae Ali. I was born in Eritrea, moved to Sudan when I was nine, and then
+                    to Ethiopia when I was ten years old. After four years, I come to the United States.
+                    When I moved to the United States, I began 8th grade. I wasn't sure what I wanted to do when I
+                    started high school, but coming from a country with no internet, I was eager to learn about
+                    computers.<br>
+                    And so I began studying ICT, computer science P, and computer science A when I went to high school.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="project">
+    <h1>Project</h1>
+    </section> 
+    <form action="mailto:sefaeali859@gmail.com"
+method="POST"
+enctype="multipart/form-data"
+name="EmailForm">
+    <section id="contact">
+        <div class="contatinfo">
+
+            <div class="containner">
+                <h2> All suggestions are welcomed </h2>
+
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span class="text">First Name</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span class="text">Last Name</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span class="text">Email</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="" required="required" >
+                            <span class="text">Phone Number</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox textarea">
+                            <textarea required="required"></textarea>
+                            <span class="text"> Type Your Comment Here...</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+ </form>
+    </section>
+    <script>
+        const li = document.querySelectorAll(".links")
+        const sec = document.querySelectorAll("section")
+
+        function activeMenu() {
+            let len = sec.length;
+            while (--len && window.scrollY + 97 < sec[len].offsetTop) {
+                li.forEach(ltx => ltx.classList.remove("active"));
+                li[len].classList.add("active");
+            }
+        }
+        activeMenu();
+        window.addEventListener("scroll", activeMenu);
+
+    </script>
+</body>
+
+</html>

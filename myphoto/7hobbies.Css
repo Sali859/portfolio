@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Koulen&family=Oswald:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    
+}
+body
+{ 
+    display: inline;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    background-image: url("blackitlong.jpg") !important ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.containerr
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.containerr .card
+{ 
+    position: relative;
+    max-width: 300px;
+    height: 215px; 
+    background: #Aeeaff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.containerr .card:hover
+{
+    height: 420px;
+}
+.containerr .card .imgBx
+{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.containerr .card .imgBx img
+{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.containerr .card .contentt
+{ 
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.containerr .card:hover .contentt
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+
+
+/* .imgBx {
+    max-width: max-content;
+    max-height: max-content;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    position: sticky;
+    z-index: 1000;
+    width: 100%;
+    padding: 30px 20px;
+    background: rgba(225, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(225, 255, 255, 0.25);
+    border-right: 1px solid rgba(225, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(225, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(25px);
+    top: 0;
+    
+
+
+}
+.main-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding: 5px 10px;
+    border: none;
+    display: inline-block;
+    padding: 5px;
+    transition: all linear 0.5s;
+    margin-right: 20px;
+   
+}
+
+nav li a {
+    text-decoration: none;
+    color: #29C5f6;
+    font-weight: 500;
+    padding: 5px;
+    font-family: 'Koulen', cursive;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: #fff;
+    text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.logo {
+    border-radius: 100px;
+    size: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.myphoto {
+    height: auto;
+    width: 400px;
+    height: 400px;
+    size: 30px;
+    max-width: 100%;
+    margin-top: 80px;
+}
+
+.text {
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.content {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-around;
+}
+
+h1{
+    color: #29C5f6;
+}
